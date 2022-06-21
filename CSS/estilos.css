@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: beige;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+/*Estilos Menu de navegacion*/
+nav {
+  height: 80px;
+  background-image: url(../Multimedia/gradient-geometric-wallpaper/4863446.jpg);
+}
+li {
+  display: inline;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 25px;
+}
+ul {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+.img_nav {
+  position: relative;
+  height: 41px;
+  top: 25%;
+}
+.texto_logo {
+  display: inline;
+  position: relative;
+  top: 12%;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+/* estilos seccion 1*/
+.seccion1 {
+  position: relative;
+  height: 600px;
+  margin: 0 auto;
+}
+.seccion1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 100%;
+}
+.seccion1 h1 {
+  font-size: 60px;
+  font-weight: 300;
+  background-color: rgba(34, 34, 34, 0.541);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+}
+.seccion1 p {
+  font-size: 30px;
+  font-weight: 300;
+  background-color: rgba(34, 34, 34, 0.541);
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 65%;
+}
+/* fin estilos seccion1*/
+
+/*inicio estilos seccion2*/
+.seccion2 {
+  padding: 50px;
+  position: relative;
+  height: 600px;
+  margin: 0 auto;
+}
+.seccion2 h2 {
+  position: absolute;
+  left: 35%;
+  font-size: 50px;
+  font-weight: 300;
+}
+.seccion2 img {
+  position: absolute;
+  width: 25%;
+  height: 400px;
+  top: 20%;
+}
+
+.seccion2_img2 {
+  left: 38%;
+}
+.seccion2_img3 {
+  left: 73%;
+}
+.seccion2 p {
+  position: absolute;
+  top: 80%;
+  font-size: 20px;
+  font-weight: 700;
+}
+.seccion2_parrafo2 {
+  left: 38%;
+}
+.seccion2_parrafo3 {
+  left: 73%;
+}
+/*fin estilos seccion2*/
+
+/*--inicio estilos seccion3--*/
+
+.seccion3 {
+  position: relative;
+  height: 300px;
+  background-color: rgb(216, 132, 77);
+}
+.seccion3 p {
+  position: absolute;
+  font-size: 35px;
+  font-weight: 300;
+}
+.seccion3_p1 {
+  position: absolute;
+  left: 30%;
+  top: 40%;
+}
+.seccion3_p2 {
+  display: inline;
+  left: 35%;
+  top: 60%;
+}
+/*--Fin estilos seccion3--*/
+
+/*--inicio estilos seccion4--*/
+.seccion4 {
+  position: relative;
+  height: 600px;
+  margin: 0 auto;
+}
+.seccion4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 100%;
+}
+.seccion4 h2 {
+  position: absolute;
+  font-size: 70px;
+  font-weight: 300;
+  color: white;
+  top: 40%;
+  left: 37%;
+}
+.seccion4 button {
+  height: 100px;
+  width: 400px;
+  position: relative;
+  background-color: rgb(216, 132, 77);
+  border-style: none;
+  left: 40%;
+  bottom: 40%;
+  color: white;
+  font-size: 20px;
+}
+h4 {
+  font-weight: 300;
+  letter-spacing: 20px;
+
+  /* fin estilos seccion4*/
+}
+/*inicio estilos footer*/
+footer {
+  position: relative;
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+footer p {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+}
+.rrss {
+  display: inline;
+  position: relative;
+  left: 41%;
+  top: 10%;
+}
+.rrss a {
+  padding: 25px;
+  color: white;
+}
+/* fin estilos footer*/
